@@ -1,0 +1,52 @@
+.navbar {
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.navbar .navWrapper {
+  padding: 10px;
+  background-color: #00E0FF;
+  display: flex;
+}
+.navbar .navWrapper .logo, .navbar .navWrapper .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.navbar .navWrapper .navElementsWrapper {
+  flex: 3;
+}
+.navbar .navWrapper .navElementsWrapper .navElements {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .navWrapper .navElementsWrapper .navElements .navElement {
+  margin-right: 5%;
+  cursor: pointer;
+}
+.navbar .navWrapper .navElementsWrapper .navElements .navElementa {
+  text-decoration: none;
+}
+.navbar .navWrapper .icon {
+  flex: 2;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .navElements {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 12px;
+  }
+  .navElements .navElement {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */

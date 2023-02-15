@@ -1,0 +1,54 @@
+.hero .heroWrapper {
+  height: calc(100vh - 15px);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  color: white;
+}
+.hero .heroWrapper .title {
+  font-weight: bold;
+  font-size: 70px;
+  font-family: Black Han Sans, serif;
+}
+.hero .heroWrapper .smalltext {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-family: "Irish Grover", cursive;
+}
+.hero .heroWrapper .smalltext2 {
+  font-family: "Irish Grover", cursive;
+  font-size: 40px;
+  margin-top: 0;
+}
+.hero .heroWrapper .btnExplore {
+  padding: 15px;
+  font-size: 25px;
+  font-family: "Irish Grover", cursive;
+  background-color: #00E0FF;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 7%;
+}
+.hero .label {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.hero .label .l1 {
+  padding: 10px;
+  color: #00E0FF;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 2%;
+  align-self: center;
+}
+
+/*# sourceMappingURL=hero.css.map */

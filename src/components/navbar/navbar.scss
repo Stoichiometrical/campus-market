@@ -1,0 +1,67 @@
+
+$mainColor : #00E0FF;
+$phone : 400px;
+.navbar{
+font-size: 15px;
+  color: white;
+
+  margin : 0;
+  padding : 0;
+  width: 100%;
+    .navWrapper{
+      padding :10px;
+      background-color : $mainColor;
+      display : flex;
+      //justify-content :space-between;
+
+      .logo , .icon{
+        display : flex;
+        justify-content :center;
+        align-items : center;
+        flex : 2;
+
+      }
+
+      .navElementsWrapper{
+        flex : 3;
+        .navElements{
+          display : flex;
+          list-style: none;
+          justify-content : center;
+          align-items: center;
+
+
+
+
+          .navElement{
+            margin-right: 5%;
+            cursor :pointer;
+            &a{
+              text-decoration: none;
+            }
+          }
+
+        }
+      }
+
+      .icon{
+        flex : 2;
+        cursor :pointer;
+      }
+    }
+
+}
+
+@media (max-width: $phone) {
+  .navElements{
+    display : flex;
+    list-style: none;
+    align-items: center;
+    font-size : 12px;
+
+    .navElement{
+      margin-bottom: 0;
+    }
+  }
+
+}

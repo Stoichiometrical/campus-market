@@ -1,0 +1,37 @@
+.service {
+  padding: 10px;
+}
+.service .serviceWrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.service .serviceWrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.service .serviceWrapper .text {
+  display: flex;
+  background-color: #00E0FF;
+  color: white;
+  top: 75%;
+  width: 100%;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+}
+.service .serviceWrapper .text h2 {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.carts {
+  display: flex;
+  flex-flow: wrap;
+  padding: 5%;
+}
+
+/*# sourceMappingURL=servicecart.css.map */

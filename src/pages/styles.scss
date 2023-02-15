@@ -1,0 +1,216 @@
+
+$color : #00E0FF;
+$loginImage : "https://images.pexels.com/photos/4353618/pexels-photo-4353618.jpeg?auto=compress&cs=tinysrgb&w=600";
+.register{
+  color : white;
+  background-image: url("https://images.pexels.com/photos/1122679/pexels-photo-1122679.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat : no-repeat;
+  background-size : cover;
+  height : 100vh;
+  display :flex;
+  justify-content : center;
+
+  &.login{
+    background-image: url($loginImage);
+  }
+
+     .registerWrapper{
+       display : flex;
+       flex-direction : column;
+       align-items: center;
+       justify-content : center;
+
+       h1{
+         align-self: center;
+         //margin-top : 5%;
+         font-size : 35px;
+       }
+
+       .text{
+         align-self: center;
+         font-size : 20px;
+       }
+
+
+
+
+       .form{
+         display : flex;
+         flex-direction: column;
+         //margin-top : 15%;
+
+         input{
+           margin-top:4%;
+           height : 55px;
+           background-color: rgba(255, 255, 255, 0.53);
+           border-radius : 15px;
+           width: 100%;
+           border : none;
+           outline : none;
+         &::placeholder{
+           color : $color;
+           text-align: center;
+         }
+         }
+          .btnContainer{
+            display : flex;
+            align-items: center;
+            justify-content: center;
+            width : 100%;
+            button{
+              margin-top:5%;
+              background-color: #00E0FF;
+              color : white;
+              height : 50px;
+              width : 40vw;
+              border-radius : 15px;
+              border : none;
+              cursor : pointer;
+            }
+
+          }
+
+       }
+
+       .btm-txt{
+         margin-top: 4%;
+         cursor : pointer;
+       }
+
+     }
+
+
+
+}
+
+.storeWrapper{
+  padding : 10px;
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  gap : 15px;
+  word-break: break-word;
+  flex : 1 1 0;
+
+    .title{
+      color: $color;
+      align-self: center;
+      font-size : 1.5em;
+    }
+
+  .itemBack{
+    color: white;
+    background-color:$color;
+    padding : 2em;
+    border-radius : 15px;
+    cursor : pointer;
+    display : flex;
+    flex-direction : column;
+
+    &:hover{
+      background-color: white;
+      color : $color;
+      border : 1px solid $color;
+    }
+
+    .fimg{
+      align-self: center;
+    }
+  }
+
+  .frow{
+    display : flex;
+    gap: 15px;
+  }
+
+
+
+}
+
+.upload{
+
+  .uploadWrapper{
+    display : flex;
+    flex-flow : column wrap;
+    align-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+    .title{
+      margin-top: 2%;
+      color : $color;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .inputItem{
+      border-radius : 15px;
+      width : calc(100vw - 50%);
+      background-color : rgba(211, 211, 211, 0.37);
+      padding : 10px;
+      border: white;
+
+
+
+
+      &::placeholder{
+        color : $color;
+        font-weight: bold;
+        text-align: center;
+      }
+
+
+    }
+
+    .productVar{
+      display:flex;
+      width : calc(100vw - 50%);
+      align-self: center;
+
+      .inputItem{
+        width:98%;
+        border: white;
+
+
+
+
+      }
+      .btn{
+        width:40px;
+        background-color:$color;
+        color : white;
+        border-radius: 15px;
+        border : none;
+        cursor : pointer;
+
+      }
+    }
+    .itemBack{
+      color: white;
+      background-color:$color;
+      padding : 2em;
+      border-radius : 15px;
+      cursor : pointer;
+      display : flex;
+      flex-direction : column;
+
+
+      .fimg{
+        align-self: center;
+      }
+
+    }
+
+    .uploadBtn{
+      border-radius : 15px;
+      background-color : $color;
+      padding: 15px;
+      border : none;
+      color : white;
+      font-weight : bold;
+      cursor : pointer;
+    }
+  }
+
+
+}

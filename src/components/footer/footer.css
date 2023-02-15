@@ -1,0 +1,46 @@
+.footer {
+  color: white;
+  margin-top: 5%;
+}
+.footer .footerWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #00E0FF;
+  height: 180px;
+}
+.footer .footerWrapper .first {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footerWrapper .first .address {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.footer .footerWrapper .first .address .addressItems {
+  list-style: none;
+}
+.footer .footerWrapper .first .address .addressItems .addressItem:first-child {
+  font-weight: bold;
+}
+.footer .footerWrapper .first .contacts {
+  margin-right: 5%;
+  margin-top: 3%;
+}
+.footer .footerWrapper .first .contacts span {
+  font-weight: bold;
+}
+.footer .footerWrapper .first .contacts ul {
+  list-style: none;
+}
+.footer .footerWrapper .second {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footerWrapper .second span {
+  width: 100%;
+}
+
+/*# sourceMappingURL=footer.css.map */

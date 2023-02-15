@@ -1,0 +1,78 @@
+
+$colors :#00E0FF;
+.footer{
+  color:white;
+
+  margin-top : 5%;
+
+  .footerWrapper{
+      display:flex;
+      flex-direction : column;
+
+    background-color: $colors;
+    height: 180px;
+
+    .first{
+      flex : 2;
+      display:flex;
+      justify-content : space-between;
+
+
+      .address{
+        margin-left:5%;
+        margin-top: 3%;
+
+          .addressItems{
+            list-style: none;
+
+
+
+            .addressItem{
+              &:first-child{
+                font-weight: bold;
+              }
+
+            }
+
+          }
+      }
+
+      .contacts{
+        margin-right: 5%;
+        margin-top: 3%;
+
+
+        span{
+          font-weight: bold;
+        }
+
+        ul{
+          list-style : none;
+          li{
+
+          }
+        }
+      }
+
+    }
+
+
+
+    .second{
+      flex: 1;
+      display:flex;
+      justify-content: center;
+      align-items : center;
+      span{
+        width : 100%;
+
+      }
+
+    }
+
+  }
+
+
+
+
+}

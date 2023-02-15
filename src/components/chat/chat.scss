@@ -1,0 +1,180 @@
+.chat{
+  .chatWrapper{
+    padding: 10px 10px 10px 10px;
+    display : flex;
+    flex-direction: row;
+    gap : 15px;
+    flex : 1 1 auto;
+
+
+    img{
+      width:60px;
+      height : 60px;
+      object-fit : cover;
+      border-radius : 50%;
+    }
+
+    .text{
+      display : flex;
+      flex-direction : column;
+
+
+      .title{
+       font-weight : bold;
+        font-size: 25px;
+        margin-bottom :5%;
+        color : #00E0FF;
+      }
+
+      .message{
+        font-style : italic;
+        word-break: break-all;
+      }
+
+
+    }
+
+    .chatCounter{
+      display: flex;
+      align-items : center;
+      align-content : center;
+      width: 30px;
+      height: 30px;
+      background-color:#00E0FF;
+      border-radius : 50%;
+      align-self: center;
+
+       .messageCount{
+        font-weight: bold;
+         padding-left: 11px;
+         color : white;
+       }
+    }
+
+  }
+
+}
+
+.openWrapper{
+   .topBar{
+     display : flex;
+     flex : 1 1 auto;
+     background-color: #00E0FF;
+
+     .backarrow{
+       align-self: center;
+       color: white;
+       padding-right: 10px;
+       padding-left: 10px;
+
+
+     }
+
+     .topImg{
+       width : 40px;
+       height : 40px;
+       border-radius : 50%;
+       object-fit: cover;
+       padding-bottom: 9px;
+       padding-top: 9px;
+
+
+     }
+
+     .topName{
+       font-weight : bold;
+       color :white;
+       align-self: center;
+       padding-left:10px;
+     }
+
+
+
+
+   }
+   .chatSpace{
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     background-color : lightgray;
+     align-content: space-between;
+
+     .messagebar{
+       align-self: flex-start;
+       display : flex;
+       flex-direction: column;
+       width: 100%;
+       flex :8;
+
+
+       .message{
+         padding : 5px;
+         margin-top: 4%;
+         background-color : white;
+         word-break: break-all;
+         max-width: 50%;
+
+
+
+         &.recieved{
+           border-radius: 0 10px 10px 10px;
+           margin-left: 5px;
+
+           //overflow : auto;
+           //flex : 1 1 auto;
+
+         }
+
+         &.sent{
+           border-radius : 10px 0 10px 10px;
+           color: white;
+           background-color:#00E0FF;
+           margin-left:65%;
+           margin-right:5px;
+           margin-bottom : 4%;
+           //flex : 1 1 auto;
+         }
+
+
+       }
+
+     }
+
+     .textInput{
+       display : flex;
+       width: 100%;
+       flex: 2;
+       height: 50px;
+
+       .writeMessage{
+         padding : 10px;
+         border-radius: 18px;
+         outline : none;
+         flex : 4;
+
+
+       }
+
+       .send{
+         border-radius: 35%;
+         background-color: #00E0FF;
+         padding : 10px;
+         color:white;
+         font-weight: bold;
+
+
+       }
+
+     }
+
+   }
+
+
+
+
+
+
+
+
+
+}
