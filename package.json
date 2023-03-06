@@ -1,6 +1,6 @@
 {
   "name": "market",
-  "home": "https://Stoichiometrical.github.io/campus-market",
+  "home": "https://stoichiometrical.github.io/campus-market",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
